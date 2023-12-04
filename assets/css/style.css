@@ -1,0 +1,51 @@
+/* *******************************************************
+***************header style goes here******************
+******************************************************* */
+/* navigation width */
+.main-navigation {
+    width: 1420px;
+    height: 104px;
+    margin: auto;
+}
+
+/* rounded searcg bar */
+input.search_box {
+    border-radius: 22px;
+}
+
+.theme-switch{
+
+}
+
+/* *******************************************************
+***************landing screen style goes here*************
+******************************************************* */
+section.landing-screen {
+    width: 1420px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+
+.featured-post-box{
+    height: 600px;
+    background-image: url("../images/featured.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.landing-post-box {
+    height: 304px;
+    width: 598px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+
+
