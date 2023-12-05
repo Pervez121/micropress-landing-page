@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,76 +11,208 @@
 </head>
 
 <body>
-<header class="main-header">
-    <div class="main-navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#"><img src="./assets/images/micropress_logo.png" alt="" srcset="" width="150"></a>
-        
-            <!-- Toggler/collapsibe Button for small screens -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Navigation Items in the middle -->
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Latest</a>
-                    </li>
-                </ul>
-        
-        <!-- Small and rounded search bar with magnifier icon -->
+    <header class="main-header">
+        <div class="main-navigation d-flex align-items-center justify-content-space-between">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/images/micropress_logo.png" alt="" srcset=""
+                        width="150"></a>
 
-                <form class="form-inline my-2 my-lg-0">
-                    <div class="input-group">
-                        <input type="text" class="search_box form-control rounded-pill mr-sm-2" placeholder="Search" aria-label="Search">
-                        <div class="input-group-append">
-                            <span class="input-group-text" id="basic-addon2">🔍</span>
+                <!-- Toggler/collapsibe Button for small screens -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Navigation Items in the middle -->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Latest</a>
+                        </li>
+                    </ul>
+
+                    <!-- Small and rounded search bar with magnifier icon -->
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group">
+                            <input type="text" class="search_box form-control rounded-pill mr-sm-2" placeholder="Search"
+                                aria-label="Search">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">🔍</span>
+                            </div>
                         </div>
+                    </form>
+
+                    <div class="custom-control custom-switch ml-3" id="theme-switch">
+                        <img src="./assets/images/Swich.png" alt="" class="theme-switch">
                     </div>
-                </form>
-        
-                <div class="custom-control custom-switch ml-3" id="theme-switch">
-                    <img src="./assets/images/Swich.png" alt="" class="theme-switch">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="landing-screen">
+        <div class="featured-post-box">
+            <div class="landing-post-box">
+                <div class="latest-post">
+                    <div class="category-box"><span class="category">Technology</span></div>
+                </div>
+                <div class="post-title-box">
+                    <h2 class="title-of-post">The Impact of Technology on the Workplace: How Technology is Changing</h2>
+                </div>
+                <div class="data-of-post">
+                    <span class="post-data author-of-post"><img src="./assets/images/micropress favicon.png" alt=""
+                            class="author-image"></span><span class="post-data name-of-author">Jason
+                        Francisco</span><span class="post-data post-bublised-date">August 20, 2022</span>
                 </div>
             </div>
-        </nav>
-    </div>
-</header>
+        </div>
 
-<section class="landing-screen">
-    <div class="featured-post-box">
-        <div class="landing-post-box">
-            <div class="latest-post">
-                <div class="category-box"><span class="category">Technology</span></div>
+    </section>
+
+    <section class="advertisement-box m-4 pb-4 d-flex align-items-center justify-content-center">
+        <div class="advertisement">
+            <img src="./assets/images/o-ads-space.png" alt="" class="advertise">
+        </div>
+    </section>
+    <section class="latest-post-grid ">
+        <div class="section-title">
+            <h3 class="post-grid-title">Latest Post</h3>
+        </div>
+        <post class="container ">
+            <div class="card-group row ">
+                <div class="card col-sm-0 col-md-6 col-lg-4 single-post-box">
+                    <img class="card-img-top post-image" src="./assets/images/post-images/post-image (1).png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <div class="latest-post">
+                            <div class="category-box"><span class="category" id="post-category">Technology</span></div>
+                        </div>
+                        <div class="post-title-box " id="post title">
+                            <h2 class="title-of-post" id="post-content">The Impact of Technology on the Workplace: How
+                                Technology is Changing</h2>
+                        </div>
+                        <div class="data-of-post">
+                            <span class="post-data author-of-post"><img src="./assets/images/micropress favicon.png"
+                                    alt="" id="post-author-image" class="author-image"></span><span
+                                class="post-data name-of-author" id="post-author-name">Jason Francisco</span><span
+                                class="post-data post-bublised-date" id="post-published-date">August 20, 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- ________________________________________________ -->
+
+                <div class="card col-sm-0 col-md-6 col-lg-4 single-post-box">
+                    <img class="card-img-top post-image" src="./assets/images/post-images/post-image (1).png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <div class="latest-post">
+                            <div class="category-box"><span class="category" id="post-category">Technology</span></div>
+                        </div>
+                        <div class="post-title-box " id="post title">
+                            <h2 class="title-of-post" id="post-content">The Impact of Technology on the Workplace: How
+                                Technology is Changing</h2>
+                        </div>
+                        <div class="data-of-post">
+                            <span class="post-data author-of-post"><img src="./assets/images/micropress favicon.png"
+                                    alt="" id="post-author-image" class="author-image"></span><span
+                                class="post-data name-of-author" id="post-author-name">Jason Francisco</span><span
+                                class="post-data post-bublised-date" id="post-published-date">August 20, 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-sm-0 col-md-6 col-lg-4 single-post-box">
+                    <img class="card-img-top post-image" src="./assets/images/post-images/post-image (1).png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <div class="latest-post">
+                            <div class="category-box"><span class="category" id="post-category">Technology</span></div>
+                        </div>
+                        <div class="post-title-box " id="post title">
+                            <h2 class="title-of-post" id="post-content">The Impact of Technology on the Workplace: How
+                                Technology is Changing</h2>
+                        </div>
+                        <div class="data-of-post">
+                            <span class="post-data author-of-post"><img src="./assets/images/micropress favicon.png"
+                                    alt="" id="post-author-image" class="author-image"></span><span
+                                class="post-data name-of-author" id="post-author-name">Jason Francisco</span><span
+                                class="post-data post-bublised-date" id="post-published-date">August 20, 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- __________________________________________________ -->
+
             </div>
-            <div class="post-title-box">
-                <h2 class="title-of-post">The Impact of Technology on the Workplace: How Technology is Changing</h2>
+        </post>
+    </section>
+
+    <section class="advertisement-box m-4 pb-4 d-flex align-items-center justify-content-center">
+        <div class="advertisement">
+            <img src="./assets/images/o-ads-space.png" alt="" class="advertise">
+        </div>
+    </section>
+
+    <footer class="footer-main">
+        <div class="footer-inner">
+        <div class="row">
+
+    
+          <div class="col-6 col-md-2 col-lg-4 mb-3">
+            <div class="nav-brand">
+                <a class="navbar-brand" href="#"><img src="./assets/images/micropress_logo.png" alt="" srcset=""
+                    width="250"></a>
+                    <p class="about">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aliquid nisi delectus eaque fugiat maiores?
+                    </p>
+                    <hl class="contact-info">
+                        <li class="email"><span class="email-title"><b>Email: </b></span>mail@micropress.com</li>
+                        <li class="phone"><span class="phone-title"><b>Phone: </b> </span>+92-316-9201238</li>
+                    </hl>
             </div>
-            <div class="data-of-post">
-                <span class="post-data author-of-post"><img src="./assets/images/micropress favicon.png" alt="" class="author-image"></span><span class="post-data name-of-author">Jason Francisco</span><span class="post-data post-bublised-date" >August 20, 2022</span>
-            </div>
+          </div>
+          <div class="col-6 col-md-2 col-lg-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">contact us</a></li>
+
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 col-lg-4 mb-3 ">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2023 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./assets/images/facebook.png" alt="" class="social"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./assets/images/insta.png" alt="" class="social"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/in/pervez-iqbal-pi/"><img src="./assets/images/linlkden.png" alt="" class="social"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://pervez-iqbal.netlify.app/"><img src="./assets/images/website.png" alt="" class="social"></a></li>
+          </ul>
         </div>
     </div>
-
-</section>
-
-
-
-<footer>
-
-
-</footer>
-<!-- Bootstrap JS and dependencies -->
-<script src="assets/js/jquery-3.2.1.slim.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+      </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
